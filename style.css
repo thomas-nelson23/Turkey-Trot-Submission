@@ -1,5 +1,9 @@
 html {
     background-color: bisque;
+    background-image: url(/texas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 body {
@@ -11,12 +15,14 @@ header {
     margin: auto;
     padding-top: 2em;
     padding-bottom: 2em;
+    font-family: Acme;
 }
 
 form {
     display: flex;
     flex-direction: column;
     margin: auto;
+    font-family: Montserrat;
 }
 
 input {
