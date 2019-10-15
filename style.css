@@ -17,6 +17,7 @@ header {
     padding-top: 2em;
     padding-bottom: 2em;
     font-family: Acme;
+    justify-content: center;
 }
 
 form {
