@@ -18,6 +18,8 @@ body {
     flex-direction: column;
     margin: auto;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 header {
