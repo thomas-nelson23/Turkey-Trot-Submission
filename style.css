@@ -12,10 +12,12 @@ html {
 }
 
 body {
-    justify-content: flex-start;
     display: flex;
-    align-content: center;
     flex-direction: column;
+    justify-content: center;
+    
+    align-content: flex-start;
+    
     margin: auto;
     justify-content: center;
     height: 100%;
@@ -25,18 +27,34 @@ body {
 header {
     
     margin: auto;
-    padding-top: 2em;
-    padding-bottom: 4em;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-family: Acme;
     justify-content: center;
     text-align: center;
     width: 100%;
+    overflow: hidden;
+    font-size: 3vw;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    
+    
 
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
     white-space: nowrap;
     /* overflow: none; 
     text-overflow: ellipsis; */
+
+    
 }
+
+@media screen and (min-width: 1200px) {
+    header {
+       font-size: 36px;
+    }
+  }
 
 form {
     display: flex;
@@ -47,6 +65,7 @@ form {
     padding: 2em;
     border-radius: 2em;
     margin-bottom: 4em;
+    margin-top: 2em;
 }
 
 input {
@@ -56,10 +75,12 @@ input {
 footer {
     margin: auto;
     margin-top: 2em;
+    margin-bottom: 2em;
     background-color: rgba(127, 183, 209, 0.3);
     padding: 2em;
     font-family: Montserrat;
     border-radius: 2em;
     font-size: 1.2em;
     font-weight: 600;
+
 }
