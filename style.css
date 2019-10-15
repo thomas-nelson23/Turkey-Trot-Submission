@@ -26,8 +26,21 @@ form {
     flex-direction: column;
     margin: auto;
     font-family: Montserrat;
+    background-color: rgba(127, 183, 209, 0.308);
+    padding: 2em;
+    border-radius: 2em;
 }
 
 input {
     max-width: 200px;
+}
+
+footer {
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgba(127, 183, 209, 0.3);
+    padding: 2em;
+    font-family: Montserrat;
+    border-radius: 2em;
+    font-size: 1.2em;
 }
