@@ -112,6 +112,8 @@ footer {
 
     .form {
         margin: auto;
+        width: 80vw;
+        height: 260px;
     }
 
     .pic {
@@ -125,6 +127,8 @@ footer {
 
     h4 {
         font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
 
@@ -137,6 +141,7 @@ footer {
 
     .form {
         margin-right: 100px;
+        text-align: center;
     }
 
 
