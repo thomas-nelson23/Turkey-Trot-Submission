@@ -1,8 +1,9 @@
 html {
     background-color: bisque;
-    background-image: url(/texas.jpg);
+    /* background-image: url(/texas.jpg); */
+    background-image: url(/gate.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center ;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -22,7 +23,7 @@ header {
     font-family: Acme;
     text-align: center;
     font-size: 3vw;
-    margin-bottom: 1em;  
+    margin-bottom: 0;  
 }
 
 @media screen and (min-width: 1200px) {
@@ -58,4 +59,28 @@ footer {
     font-size: 1.2em;
     font-weight: 600;
 
+}
+
+.main {
+    width: 200px;
+}
+
+.pic {
+    /* background-image: url(/gate.jpeg); */
+   
+  
+    margin: 0;
+    font-family: Montserrat;
+    text-align: center;
+    background-color: rgba(127, 183, 209, 0.308);
+    padding: 2em;
+    border-radius: 2em;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
