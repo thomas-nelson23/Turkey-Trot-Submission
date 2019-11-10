@@ -133,7 +133,7 @@ footer {
         position: absolute;
         padding: 0px;
         padding-top: 30px;
-        top: 130px;
+        top: 110px;
         margin: auto;
         left: 15vw;
         
@@ -152,8 +152,10 @@ footer {
         position: absolute;
         padding-left: 0px;
         padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         left: 15vw;
-        top: 400px;
+        top: 380px;
     }
 
     .dateHeading {
