@@ -32,9 +32,13 @@ header {
     }
   }
 
+
+
+
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: auto;
     font-family: Montserrat;
     font-weight: 600;
@@ -63,16 +67,19 @@ footer {
 }
 
 .main {
-    width: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .pic {
     /* background-image: url(/gate.jpeg); */
    
-  
+    width: 420px;
     margin: 0;
     font-family: Montserrat;
-    
+    margin: auto;
     text-align: center;
     background-color: rgba(127, 183, 209, 0.74);
     padding: 2em;
@@ -85,5 +92,40 @@ footer {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100vw;
 }
+
+.title {
+    margin-bottom: 0px;
+}
+
+.subhead {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .form {
+        margin: auto;
+    }
+
+    .pic {
+        width: 75vw
+    }
+
+  }
+
+  @media screen and (min-width: 1100px) {
+    .pic {
+        margin-left: 100px;
+    }
+
+    .form {
+        margin-right: 100px;
+    }
+  }
