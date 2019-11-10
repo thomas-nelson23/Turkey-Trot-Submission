@@ -37,7 +37,8 @@ form {
     flex-direction: column;
     margin: auto;
     font-family: Montserrat;
-    background-color: rgba(127, 183, 209, 0.308);
+    font-weight: 600;
+    background-color: rgba(127, 183, 209, 0.747);
     padding: 2em;
     border-radius: 2em;
     margin-bottom: 4em;
@@ -71,12 +72,14 @@ footer {
   
     margin: 0;
     font-family: Montserrat;
+    
     text-align: center;
-    background-color: rgba(127, 183, 209, 0.308);
+    background-color: rgba(127, 183, 209, 0.74);
     padding: 2em;
     border-radius: 2em;
     margin-bottom: 4em;
     margin-top: 2em;
+    font-weight: 700;
 }
 
 .row {
