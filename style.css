@@ -118,11 +118,22 @@ footer {
         margin: auto;
         width: 70vw;
         height: 250px;
-        
+        position: absolute;
+  left: 5px;
+  top: 100px;
+    }
+
+    .container {
+        position: absolute;
+  left: 10px;
+  top: 50px;
     }
 
     .pic {
-        width: 75vw
+        width: 75vw;
+        position: absolute;
+         left: 0px;
+        top: 400px;
     }
 
     .dateHeading {
